@@ -13,72 +13,291 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <span><a href="about.html" class="pages">About </a></span>
-    <span><a href="projects.html" class="pages">Projects </a></span>
-    <span><a href="contact.html" class="pages">Contact</a></span>
+    <header class="header">
+      <!-- navigation -->
 
-    <h1>Wendy Mathabela</h1>
+      <!-- my logo -->
+      <div class="logo">
+        <img src="images/17 (2).png" alt="Trecia.logo" width="50px" />
+      </div>
+
+      <!-- menu -->
+      <table>
+        <tr>
+          <th scope="col">
+            <span><a href="home.html" class="pages">Home</a></span>
+          </th>
+          <th scope="col">
+            <span><a href="about.html" class="pages">About</a></span>
+          </th>
+          <th scope="col">
+            <span><a href="projects.html" class="pages">Projects</a></span>
+          </th>
+          <th scope="col">
+            <span><a href="designer.html" class="pages">Designs</a></span>
+          </th>
+          <th scope="col">
+            <span><a href="contact.html" class="pages">Contact</a></span>
+          </th>
+        </tr>
+      </table>
+    </header>
+
+    <br /><br />
+    <hr />
+    <h1><span class="heading">Wendy Mathabela</span></h1>
     <h3>Portfolio</h3>
-    <p>Hello and Welcome to my world</p>
+    <hr />
+    <br />
 
-    <div class="container body">
-      <div class="row mediabanner">
-        <div class="col">
-          <a
-            href="https://www.instagram.com/wendiemat/"
-            target="_blank"
-            title="Instagram Profile"
-          >
-            <img
-              src="images/instagram-logo.png"
-              alt="intsagram logo"
-              class="img-fluid"
-          /></a>
+    <h1>Hello</h1>
+
+    <!-- about me -->
+    <section class="about section">
+      <h2 class="section-title">WHO AM I ?</h2>
+
+      <div class="about-container">
+        <div class="about-img">
+          <img src="img/-5vdxbr-removebg-preview.png" loading="lazy" />
         </div>
-        <div class="col">
+
+        <div>
+          <h2 class="about-subtitle">Wendiemat</h2>
+          <p class="about-text">
+            I'm working towards my goal of being a great Front-End Developer.
+            I'm very passionate about this field because It drives me to be
+            inquisitive and resourceful.
+          </p>
+          <p class="about-text">
+            I taught myself how to code so that I may acquire the ability to
+            improve the quality of websites and to bring my ideas to life.
+          </p>
+          <br />
           <a
-            href="https://www.linkedin.com/in/wendymathabela/"
-            target="_blank"
-            title="LinkedIn Profile"
+            id="about"
+            target="blank"
+            class="about-link"
+            title="treciaks.hashnode.dev"
+            href="https://treciaks.hashnode.dev"
+            >VISIT MY BlOG</a
           >
-            <img
-              src="images/linkedin.png"
-              title="linkedin logo"
-              class="img-fluid"
-          /></a>
-        </div>
-        <div class="col">
-          <a
-            href="https://open.spotify.com/user/u92yqkkyapnzcykhvmb8qnzcy?si=0acb35b21f924e7e"
-            target="_blank"
-            title="Spotify Profile"
-          >
-            <img src="images/spotify.png" alt="spotify logo" class="img-fluid"
-          /></a>
-        </div>
-        <div class="col">
-          <a href="https://github.com/wendiemat" target="_blank" title="Github">
-            <img src="images/github1.png" alt="intsagra logo" class="img-fluid"
-          /></a>
-        </div>
-        <div class="col">
-          <a
-            href="https://wendiemat.substack.com/p/coming-soon?showWelcome=true"
-            target="_blank"
-            title="Substack Website"
-          >
-            <img
-              src="images/substack.png"
-              alt="substack logo"
-              class="img-fluid"
-          /></a>
         </div>
       </div>
-    </div>
-    <div>
-      <a href=""> <h2>HERE IS A LITTLE GAME YOU CAN PLAY 😊</h2></a>
-    </div>
+    </section>
+    <!-- skills -->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">MY SKILLS</h2>
 
+      <div class="skills-container bg-grid">
+        <div class="skills-box">
+          <span class="skills-name">HTML</span>
+          <span class="skills-name">CSS</span>
+          <span class="skills-name">JavaScript</span>
+          <span class="skills-name">Git</span>
+          <span class="skills-name">Java</span>
+          <span class="skills-name">Responsive Web Design</span>
+        </div>
+
+        <div class="skills-img">
+          <img src="img/cup.png" loading="lazy" />
+        </div>
+      </div>
+    </section>
+    <!-- work section -->
+    <section class="work" id="work">
+      <h2 class="section-title">MY WORK</h2>
+
+      <div class="work-container bd-grid">
+        <div class="work-img">
+          <img src="work-img/coldplay2.png" loading="lazy" />
+
+          <div class="work-link">
+            <h2 class="work-heading">FanWeb: Coldplay</h2>
+            <p>Created with <code>CSS</code> and <code>HTML</code></p>
+            <a
+              target="blank"
+              href="https://github.com/TreciaKS/Website-Coldplay"
+              >Code</a
+            >
+            <a target="blank" href="https://coldplaybestband.netlify.app"
+              >Live Demo</a
+            >
+          </div>
+        </div>
+
+        <div class="work-img">
+          <img src="work-img/whattochow.png" loading="lazy" />
+
+          <div class="work-link">
+            <h2 class="work-heading">What To Chow</h2>
+            <p>
+              Created with <code>JavaScript</code>,
+              <code>Tailwind CSS</code> and <code>HTML</code>
+            </p>
+            <a target="blank" href="https://github.com/TreciaKS/What-To-Eat"
+              >Code</a
+            >
+            <a target="blank" href="https://what-to-chow.netlify.app"
+              >Live Demo
+              <py-script>
+                <a href="puzzle.html"
+                  ><h2 class="puzzle">
+                    HERE IS A LITTLE GAME YOU CAN PLAY 😊
+                  </h2></a
+                >
+              </py-script></a
+            >
+          </div>
+        </div>
+
+        <div class="work-img">
+          <img src="work-img/wordearch.png" loading="lazy" />
+
+          <div class="work-link">
+            <h2 class="work-heading">Wordearch</h2>
+            <p>
+              Created with <code>JavaScript</code>,
+              <code>Tailwind CSS</code> and <code>HTML</code>
+            </p>
+            <a target="blank" href="https://github.com/TreciaKS/Wordearch"
+              >Code</a
+            >
+            <a target="blank" href="https://wordearch.netlify.app">Live Demo</a>
+          </div>
+        </div>
+
+        <div class="work-img">
+          <img src="work-img/generator.png" loading="lazy" />
+
+          <div class="work-link">
+            <h2 class="work-heading">Gradient Generator</h2>
+            <p>
+              Created with <code>JavaScript</code>, <code>CSS</code> and
+              <code>HTML</code>
+            </p>
+            <a
+              target="blank"
+              href="https://github.com/TreciaKS/Gradient-Generator"
+              >Code</a
+            >
+            <a
+              target="blank"
+              href="https://gradientgeneratorproject.netlify.app/"
+              >Live Demo</a
+            >
+          </div>
+        </div>
+
+        <div class="work-img">
+          <img loading="lazy" src="work-img/veryfunny.png" />
+
+          <div class="work-link">
+            <h2 class="work-heading">Dad Joke Generator</h2>
+            <p>
+              Created with <code>JavaScript</code>, <code>Tailwind CSS</code>,
+              <code>HTML</code> and <code>CSS</code>
+            </p>
+            <a target="blank" href="https://github.com/TreciaKS/Joke-Generator"
+              >Code</a
+            >
+            <a target="blank" href="https://funnyjokegenerator.netlify.app"
+              >Live Demo</a
+            >
+          </div>
+        </div>
+
+        <div class="work-img">
+          <img loading="lazy" src="work-img/tailwindcss.png" />
+
+          <div class="work-link">
+            <h2 class="work-heading">Random Pics: Stock Pictures</h2>
+            <p>Created with <code>HTML</code> and <code>Tailwind CSS</code></p>
+            <a target="blank" href="https://github.com/TreciaKS/RandomPics"
+              >Code</a
+            >
+            <a target="blank" href="https://random-pics-free-photos.netlify.app"
+              >Live Demo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h2 class="section-title">REACH OUT</h2>
+
+      <div class="contact-container bd-grid">
+        <p>
+          I am seeking for an entry-level/ part-time opportunity where I can put
+          my abilities to work and to grow my skill set in being a Front-End
+          Developer| Developer Advocate and to put my creative and
+          problem-solving skills to use.
+        </p>
+
+        <p>
+          I would love to collaborate and contribute to open-source projects.
+          Feel free to connect!
+        </p>
+        <div class="container body">
+          <div class="row mediabanner">
+            <div class="col">
+              <a
+                href="https://www.instagram.com/wendiemat/"
+                target="_blank"
+                title="Instagram Profile"
+              >
+                <img
+                  src="images/instagram-logo.png"
+                  alt="intsagram logo"
+                  class="img-fluid"
+              /></a>
+            </div>
+            <div class="col">
+              <a
+                href="https://www.linkedin.com/in/wendymathabela/"
+                target="_blank"
+                title="LinkedIn Profile"
+              >
+                <img
+                  src="images/linkedin.png"
+                  title="linkedin logo"
+                  class="img-fluid"
+              /></a>
+            </div>
+            <div class="col">
+              <a
+                href="https://open.spotify.com/user/u92yqkkyapnzcykhvmb8qnzcy?si=0acb35b21f924e7e"
+                target="_blank"
+                title="Spotify Profile"
+              >
+                <img
+                  src="images/spotify.png"
+                  alt="spotify logo"
+                  class="img-fluid"
+              /></a>
+            </div>
+            <div class="col">
+              <a
+                href="https://github.com/wendiemat"
+                target="_blank"
+                title="Github"
+              >
+                <img
+                  src="images/github1.png"
+                  alt="intsagra logo"
+                  class="img-fluid"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cover">
+        <p>Let's Talk</p>
+      </div>
+    </section>
+
+    <!-- scroll reveal website: scrollrevealjs.org -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="index.js"></script>
   </body>
 </html>
